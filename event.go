@@ -2,7 +2,8 @@ package bubbly
 
 import (
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/nextlinux/gopartybus"
+
+	partybus "github.com/nextlinux/gopartybus"
 )
 
 var _ EventHandler = (*EventDispatcher)(nil)
